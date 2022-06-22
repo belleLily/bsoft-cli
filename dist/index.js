@@ -2,10 +2,38 @@
 
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
+require("core-js/modules/es6.symbol.js");
+
+require("core-js/modules/es6.string.iterator.js");
+
+require("core-js/modules/es6.array.iterator.js");
+
+require("core-js/modules/web.dom.iterable.js");
+
+require("core-js/modules/es7.symbol.async-iterator.js");
+
+require("core-js/modules/es6.object.define-property.js");
+
+require("core-js/modules/es6.object.create.js");
+
+require("core-js/modules/es6.object.get-prototype-of.js");
+
+require("core-js/modules/es6.array.for-each.js");
+
+require("core-js/modules/es6.function.name.js");
+
+require("core-js/modules/es6.object.set-prototype-of.js");
+
+require("core-js/modules/es6.array.slice.js");
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.handleCreate = void 0;
+
+require("core-js/modules/es6.object.to-string.js");
+
+require("core-js/modules/es6.promise.js");
 
 var _ora = _interopRequireDefault(require("ora"));
 

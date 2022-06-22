@@ -1,9 +1,8 @@
 {
-  "name": "bsoft-cli",
+  "name": "bsoft-cli-test",
   "version": "1.0.0",
-  "description": "",
   "bin": {
-    "bsoft-cli": "./bin/index.js"
+    "bsoft-cli-test": "bin/index.js"
   },
   "main": "./dist/index.js",
   "scripts": {
@@ -23,5 +22,14 @@
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
     "core-js": "^2.6.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belleLily/bsoft-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/belleLily/bsoft-cli/issues"
+  },
+  "homepage": "https://github.com/belleLily/bsoft-cli#readme",
+  "description": ""
 }
