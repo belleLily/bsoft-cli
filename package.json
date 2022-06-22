@@ -1,0 +1,27 @@
+{
+  "name": "bsoft-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "bsoft-cli": "./bin/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "keywords": [],
+  "author": "belleLily",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "inquirer": "^7.0.4",
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "core-js": "^2.6.12"
+  }
+}
